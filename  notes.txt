@@ -1,0 +1,25 @@
+package.json
+    name:
+    dependencies:
+
+install express
+    npm install express
+
+install dotenv
+    npm install dotenv
+
+add scripts
+    start:
+
+Import the library that lets us talk to the db: mySQL
+
+
+//GET
+//issue the query: SELECT word FROM words
+// and process the results
+//if there is an error, respnd back with 500 on the response
+//if there is no error, 
+    0. instantiate an empty array
+    1. loop through the resutls of the query
+    2. add every word that comes back to an array
+    3. send the array back on the response 
